@@ -1,0 +1,56 @@
+* {
+	margin : 0;
+	padding:0;
+}
+#zone_user {
+	width:18%;
+	height: 600px;
+    overflow: auto;
+    font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,sans-serif;
+    font-size: 15px;
+    background-color: #eff0f1;
+    border:1px solid black;
+    border-left:none;
+}
+#zone_user  li {
+	margin : 10px; 
+}
+
+#zone_chat {
+	float:left;
+	width:80%;
+	height: 600px;
+    overflow: auto;
+    font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,sans-serif;
+    font-size: 13px;
+    background-color: #eff0f1;
+    border:1px solid black;
+}
+#zone_chat li {
+	margin : 5px; 
+}
+#zone_chat span.pseudo {
+	display:inline-block;
+	text-align:right;
+	width: 100px;
+	margin-right:20px;
+}
+
+#message {
+	width :800px;
+	border: 1px solid #ccc;
+	height : 35px;
+}
+
+#message {
+	width :800px;
+	border: 1px solid #ccc;
+	height : 30px;
+}
+
+#send {
+	height : 30px;
+	font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,sans-serif;
+    font-size: 15px;
+    padding:4px;
+}
